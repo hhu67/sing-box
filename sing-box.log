@@ -1,0 +1,651 @@
++0300 2026-01-26 19:04:17 INFO network: updated default interface wlan0, index 3
++0300 2026-01-26 19:04:17 INFO inbound/tun[tun-in]: started at tun0
++0300 2026-01-26 19:04:17 INFO sing-box started (0.55s)
++0300 2026-01-26 19:04:17 INFO [1210798402 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:49622
++0300 2026-01-26 19:04:17 INFO [1210798402 0ms] inbound/tun[tun-in]: inbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [798486027 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:49606
++0300 2026-01-26 19:04:17 INFO [798486027 0ms] inbound/tun[tun-in]: inbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [1210798402 0ms] outbound/vless[proxy]: outbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [798486027 0ms] outbound/vless[proxy]: outbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [3169018084 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:48721
++0300 2026-01-26 19:04:17 INFO [3169018084 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:17 INFO [3169018084 0ms] outbound/vless[proxy]: outbound packet connection to 8.8.8.8:53
++0300 2026-01-26 19:04:17 INFO [1165978939 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:60138
++0300 2026-01-26 19:04:17 INFO [1165978939 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:17 INFO [3285979986 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:48036
++0300 2026-01-26 19:04:17 INFO [3285979986 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:17 INFO [3169018084 168ms] outbound/vless[proxy]: outbound packet connection to 8.8.8.8:53
++0300 2026-01-26 19:04:17 INFO [1210798402 181ms] outbound/vless[proxy]: outbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [798486027 192ms] outbound/vless[proxy]: outbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [3169018084 219ms] dns: exchanged CNAME ping.archlinux.org. 3178 IN CNAME redirect.archlinux.org.
++0300 2026-01-26 19:04:17 INFO [3169018084 219ms] dns: exchanged A redirect.archlinux.org. 3178 IN A 95.216.195.133
++0300 2026-01-26 19:04:17 INFO [3169018084 219ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0c6a, udp: 512
++0300 2026-01-26 19:04:17 INFO [3555124589 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:49632
++0300 2026-01-26 19:04:17 INFO [3555124589 0ms] inbound/tun[tun-in]: inbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [3555124589 0ms] outbound/vless[proxy]: outbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [1165978939 222ms] dns: exchanged CNAME ping.archlinux.org. 3178 IN CNAME redirect.archlinux.org.
++0300 2026-01-26 19:04:17 INFO [1165978939 223ms] dns: exchanged AAAA redirect.archlinux.org. 3178 IN AAAA 2a01:4f9:c010:2636::1
++0300 2026-01-26 19:04:17 INFO [1165978939 223ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0c6a, udp: 512
++0300 2026-01-26 19:04:17 INFO [3285979986 63ms] dns: exchanged CNAME client-update.fastly.steamstatic.com. 60 IN CNAME valve.map.fastly.net.
++0300 2026-01-26 19:04:17 INFO [3285979986 63ms] dns: exchanged A valve.map.fastly.net. 60 IN A 199.232.215.82
++0300 2026-01-26 19:04:17 INFO [3285979986 63ms] dns: exchanged A valve.map.fastly.net. 60 IN A 199.232.211.82
++0300 2026-01-26 19:04:17 INFO [3285979986 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x003c, udp: 512
++0300 2026-01-26 19:04:17 INFO [3379849754 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:59103
++0300 2026-01-26 19:04:17 INFO [3379849754 0ms] inbound/tun[tun-in]: inbound connection to 199.232.215.82:443
++0300 2026-01-26 19:04:17 INFO [3555124589 129ms] outbound/vless[proxy]: outbound connection to 95.216.195.133:80
++0300 2026-01-26 19:04:17 INFO [3379849754 119ms] outbound/vless[proxy]: outbound connection to 199.232.215.82:443
++0300 2026-01-26 19:04:17 INFO [3379849754 242ms] outbound/vless[proxy]: outbound connection to 199.232.215.82:443
++0300 2026-01-26 19:04:44 INFO [801881983 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:58629
++0300 2026-01-26 19:04:44 INFO [801881983 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:44 INFO [801881983 64ms] dns: exchanged A p2p-sto2.discovery.steamserver.net. 59 IN A 155.133.252.54
++0300 2026-01-26 19:04:44 INFO [801881983 64ms] dns: exchanged A p2p-sto2.discovery.steamserver.net. 59 IN A 155.133.252.39
++0300 2026-01-26 19:04:44 INFO [801881983 64ms] dns: exchanged A p2p-sto2.discovery.steamserver.net. 59 IN A 155.133.252.40
++0300 2026-01-26 19:04:44 INFO [801881983 64ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x003b, udp: 512
++0300 2026-01-26 19:04:57 INFO [1009235095 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:60060
++0300 2026-01-26 19:04:57 INFO [1009235095 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [367634027 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:46880
++0300 2026-01-26 19:04:57 INFO [367634027 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [1009235095 70ms] dns: exchanged CNAME detectportal.firefox.com. 5 IN CNAME detectportal.prod.mozaws.net.
++0300 2026-01-26 19:04:57 INFO [1009235095 70ms] dns: exchanged CNAME detectportal.prod.mozaws.net. 5 IN CNAME prod.detectportal.prod.cloudops.mozgcp.net.
++0300 2026-01-26 19:04:57 INFO [1009235095 70ms] dns: exchanged A prod.detectportal.prod.cloudops.mozgcp.net. 5 IN A 34.107.221.82
++0300 2026-01-26 19:04:57 INFO [1009235095 70ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0005, udp: 512
++0300 2026-01-26 19:04:57 INFO [367634027 75ms] dns: exchanged CNAME detectportal.firefox.com. 5 IN CNAME detectportal.prod.mozaws.net.
++0300 2026-01-26 19:04:57 INFO [367634027 75ms] dns: exchanged CNAME detectportal.prod.mozaws.net. 5 IN CNAME prod.detectportal.prod.cloudops.mozgcp.net.
++0300 2026-01-26 19:04:57 INFO [367634027 75ms] dns: exchanged AAAA prod.detectportal.prod.cloudops.mozgcp.net. 5 IN AAAA 2600:1901:0:38d7::
++0300 2026-01-26 19:04:57 INFO [367634027 75ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0005, udp: 512
++0300 2026-01-26 19:04:57 INFO [4123520286 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:39048
++0300 2026-01-26 19:04:57 INFO [4123520286 0ms] inbound/tun[tun-in]: inbound connection to 34.107.221.82:80
++0300 2026-01-26 19:04:57 INFO [4123520286 0ms] outbound/vless[proxy]: outbound connection to 34.107.221.82:80
++0300 2026-01-26 19:04:57 INFO [2035297062 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:35002
++0300 2026-01-26 19:04:57 INFO [2035297062 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [3483611007 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:39517
++0300 2026-01-26 19:04:57 INFO [3483611007 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [2035297062 63ms] dns: exchanged CNAME ads.mozilla.org. 139 IN CNAME mc.prod.ads.prod.webservices.mozgcp.net.
++0300 2026-01-26 19:04:57 INFO [2035297062 63ms] dns: exchanged SOA ads.prod.webservices.mozgcp.net. 139 IN SOA ns-cloud-e1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 259200 300
++0300 2026-01-26 19:04:57 INFO [2035297062 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x008b, udp: 512
++0300 2026-01-26 19:04:57 INFO [3483611007 70ms] dns: exchanged CNAME ads.mozilla.org. 535 IN CNAME mc.prod.ads.prod.webservices.mozgcp.net.
++0300 2026-01-26 19:04:57 INFO [3483611007 70ms] dns: exchanged A mc.prod.ads.prod.webservices.mozgcp.net. 535 IN A 34.36.137.203
++0300 2026-01-26 19:04:57 INFO [3483611007 70ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0217, udp: 512
++0300 2026-01-26 19:04:57 INFO [4102801463 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:47742
++0300 2026-01-26 19:04:57 INFO [4102801463 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [4014663784 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57050
++0300 2026-01-26 19:04:57 INFO [4014663784 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [1030741635 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57004
++0300 2026-01-26 19:04:57 INFO [1030741635 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [3577217294 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:60858
++0300 2026-01-26 19:04:57 INFO [3577217294 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [2726996739 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:37430
++0300 2026-01-26 19:04:57 INFO [2726996739 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:57 INFO [4123520286 129ms] outbound/vless[proxy]: outbound connection to 34.107.221.82:80
++0300 2026-01-26 19:04:57 INFO [1030741635 59ms] dns: exchanged A content-signature-2.cdn.mozilla.net. 1186 IN A 34.160.144.191
++0300 2026-01-26 19:04:57 INFO [1030741635 59ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x04a2, udp: 512
++0300 2026-01-26 19:04:57 INFO [4014663784 59ms] dns: exchanged AAAA content-signature-2.cdn.mozilla.net. 2378 IN AAAA 2600:1901:0:92a9::
++0300 2026-01-26 19:04:57 INFO [4102801463 66ms] dns: exchanged SOA ads.prod.webservices.mozgcp.net. 50 IN SOA ns-cloud-e1.googledomains.com. cloud-dns-hostmaster.google.com. 1 21600 3600 259200 300
++0300 2026-01-26 19:04:57 INFO [4014663784 59ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x094a, udp: 512
++0300 2026-01-26 19:04:57 INFO [4102801463 66ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0032, udp: 512
++0300 2026-01-26 19:04:57 INFO [2818088079 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:45534
++0300 2026-01-26 19:04:57 INFO [2818088079 0ms] inbound/tun[tun-in]: inbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:57 INFO [4156625014 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:47078
++0300 2026-01-26 19:04:57 INFO [1448811406 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:45514
++0300 2026-01-26 19:04:57 INFO [1737844280 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:45518
++0300 2026-01-26 19:04:57 INFO [1737844280 0ms] inbound/tun[tun-in]: inbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:57 INFO [4156625014 0ms] inbound/tun[tun-in]: inbound connection to 34.36.137.203:443
++0300 2026-01-26 19:04:57 INFO [1448811406 0ms] inbound/tun[tun-in]: inbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:57 INFO [2818088079 0ms] outbound/vless[proxy]: outbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:57 INFO [4156625014 0ms] outbound/vless[proxy]: outbound connection to 34.36.137.203:443
++0300 2026-01-26 19:04:57 INFO [1737844280 0ms] outbound/vless[proxy]: outbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:57 INFO [1448811406 0ms] outbound/vless[proxy]: outbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:57 INFO [3577217294 57ms] dns: exchanged CNAME firefox.settings.services.mozilla.com. 45 IN CNAME mozilla.map.fastly.net.
++0300 2026-01-26 19:04:57 INFO [3577217294 57ms] dns: exchanged AAAA mozilla.map.fastly.net. 45 IN AAAA 2a04:4e42:600::347
++0300 2026-01-26 19:04:57 INFO [3577217294 57ms] dns: exchanged AAAA mozilla.map.fastly.net. 45 IN AAAA 2a04:4e42:200::347
++0300 2026-01-26 19:04:57 INFO [3577217294 57ms] dns: exchanged AAAA mozilla.map.fastly.net. 45 IN AAAA 2a04:4e42::347
++0300 2026-01-26 19:04:57 INFO [3577217294 57ms] dns: exchanged AAAA mozilla.map.fastly.net. 45 IN AAAA 2a04:4e42:400::347
++0300 2026-01-26 19:04:57 INFO [3577217294 57ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x002d, udp: 512
++0300 2026-01-26 19:04:57 INFO [2726996739 63ms] dns: exchanged CNAME firefox.settings.services.mozilla.com. 8 IN CNAME mozilla.map.fastly.net.
++0300 2026-01-26 19:04:57 INFO [2726996739 63ms] dns: exchanged A mozilla.map.fastly.net. 8 IN A 151.101.1.91
++0300 2026-01-26 19:04:57 INFO [2726996739 63ms] dns: exchanged A mozilla.map.fastly.net. 8 IN A 151.101.65.91
++0300 2026-01-26 19:04:57 INFO [2726996739 63ms] dns: exchanged A mozilla.map.fastly.net. 8 IN A 151.101.129.91
++0300 2026-01-26 19:04:57 INFO [2726996739 63ms] dns: exchanged A mozilla.map.fastly.net. 8 IN A 151.101.193.91
++0300 2026-01-26 19:04:57 INFO [2726996739 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0008, udp: 512
++0300 2026-01-26 19:04:57 INFO [56647672 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:45868
++0300 2026-01-26 19:04:57 INFO [56647672 0ms] inbound/tun[tun-in]: inbound connection to 151.101.1.91:443
++0300 2026-01-26 19:04:57 INFO [56647672 0ms] outbound/vless[proxy]: outbound connection to 151.101.1.91:443
++0300 2026-01-26 19:04:58 INFO [1992741913 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:48609
++0300 2026-01-26 19:04:58 INFO [1992741913 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [509763491 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:41643
++0300 2026-01-26 19:04:58 INFO [509763491 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1505407157 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:38021
++0300 2026-01-26 19:04:58 INFO [1505407157 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1592600254 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:50391
++0300 2026-01-26 19:04:58 INFO [2372358571 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:51330
++0300 2026-01-26 19:04:58 INFO [2372358571 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [4077840092 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:58142
++0300 2026-01-26 19:04:58 INFO [4077840092 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [3680639728 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:35215
++0300 2026-01-26 19:04:58 INFO [382885923 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:37275
++0300 2026-01-26 19:04:58 INFO [3680639728 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [382885923 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2388503460 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:55392
++0300 2026-01-26 19:04:58 INFO [2903236264 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:53888
++0300 2026-01-26 19:04:58 INFO [2903236264 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2910730703 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:53696
++0300 2026-01-26 19:04:58 INFO [2910730703 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2388503460 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [3811254054 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:35933
++0300 2026-01-26 19:04:58 INFO [1014515465 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:48153
++0300 2026-01-26 19:04:58 INFO [1014515465 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [3811254054 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1751845865 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:54223
++0300 2026-01-26 19:04:58 INFO [1751845865 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1592600254 1ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [4019085375 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:49140
++0300 2026-01-26 19:04:58 INFO [4019085375 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [561430883 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:47916
++0300 2026-01-26 19:04:58 INFO [561430883 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [851851918 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:38451
++0300 2026-01-26 19:04:58 INFO [851851918 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2953723073 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:56691
++0300 2026-01-26 19:04:58 INFO [2953723073 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1287592860 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:38027
++0300 2026-01-26 19:04:58 INFO [1287592860 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1635820537 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57630
++0300 2026-01-26 19:04:58 INFO [1635820537 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2786955346 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:47177
++0300 2026-01-26 19:04:58 INFO [2786955346 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2987622877 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:36014
++0300 2026-01-26 19:04:58 INFO [2987622877 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2783708629 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:39593
++0300 2026-01-26 19:04:58 INFO [2783708629 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2818088079 126ms] outbound/vless[proxy]: outbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:58 INFO [1448811406 128ms] outbound/vless[proxy]: outbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:58 INFO [1992741913 64ms] dns: exchanged SOA 2ip.ru. 1608 IN SOA clark.ns.cloudflare.com. dns.cloudflare.com. 2394857746 10000 2400 604800 1800
++0300 2026-01-26 19:04:58 INFO [1992741913 64ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0648, udp: 512
++0300 2026-01-26 19:04:58 INFO [2388503460 63ms] dns: exchanged SOA github.com. 1636 IN SOA dns1.p08.nsone.net. hostmaster.nsone.net. 1656468023 43200 7200 1209600 3600
++0300 2026-01-26 19:04:58 INFO [2388503460 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0664, udp: 512
++0300 2026-01-26 19:04:58 INFO [2804655012 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:55418
++0300 2026-01-26 19:04:58 INFO [2804655012 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [3680639728 65ms] dns: exchanged SOA github.com. 582 IN SOA ns-1707.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:04:58 INFO [3680639728 65ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0246, udp: 512
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged CNAME www.youtube.com. 77 IN CNAME youtube-ui.l.google.com.
++0300 2026-01-26 19:04:58 INFO [4019085375 63ms] dns: exchanged CNAME www.speedtest.net. 767 IN CNAME www.speedtest.net.cdn.cloudflare.net.
++0300 2026-01-26 19:04:58 INFO [509763491 66ms] dns: exchanged CNAME www.youtube.com. 106 IN CNAME youtube-ui.l.google.com.
++0300 2026-01-26 19:04:58 INFO [4019085375 63ms] dns: exchanged SOA cloudflare.net. 767 IN SOA ns1.cloudflare.net. dns.cloudflare.com. 2394641177 10000 2400 604800 1800
++0300 2026-01-26 19:04:58 INFO [4019085375 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x02ff, udp: 512
++0300 2026-01-26 19:04:58 INFO [509763491 66ms] dns: exchanged HTTPS youtube-ui.l.google.com. 106 IN HTTPS 1 .
++0300 2026-01-26 19:04:58 INFO [509763491 66ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x006a, udp: 512
++0300 2026-01-26 19:04:58 INFO [1737844280 133ms] outbound/vless[proxy]: outbound connection to 34.160.144.191:443
++0300 2026-01-26 19:04:58 INFO [4077840092 65ms] dns: exchanged SOA 2ip.ru. 1694 IN SOA clark.ns.cloudflare.com. dns.cloudflare.com. 2394857746 10000 2400 604800 1800
++0300 2026-01-26 19:04:58 INFO [4077840092 65ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x069e, udp: 512
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 142.250.74.142
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 142.251.142.238
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 216.58.211.14
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 142.250.74.110
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 142.250.74.14
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 172.217.19.238
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 142.251.38.110
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 172.217.21.174
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 216.58.207.206
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged A youtube-ui.l.google.com. 77 IN A 216.58.207.238
++0300 2026-01-26 19:04:58 INFO [2372358571 65ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x004d, udp: 512
++0300 2026-01-26 19:04:58 INFO [4156625014 136ms] outbound/vless[proxy]: outbound connection to 34.36.137.203:443
++0300 2026-01-26 19:04:58 INFO [2783708629 67ms] dns: exchanged A www.curseforge.com. 300 IN A 104.17.30.3
++0300 2026-01-26 19:04:58 INFO [2783708629 67ms] dns: exchanged A www.curseforge.com. 300 IN A 104.17.29.3
++0300 2026-01-26 19:04:58 INFO [2903236264 69ms] dns: exchanged CNAME www.speedtest.net. 300 IN CNAME www.speedtest.net.cdn.cloudflare.net.
++0300 2026-01-26 19:04:58 INFO [2903236264 69ms] dns: exchanged HTTPS www.speedtest.net.cdn.cloudflare.net. 300 IN HTTPS 1 . alpn="h2" ipv4hint="104.17.147.22,104.17.148.22"
++0300 2026-01-26 19:04:58 INFO [2903236264 69ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [2783708629 67ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [56647672 126ms] outbound/vless[proxy]: outbound connection to 151.101.1.91:443
++0300 2026-01-26 19:04:58 INFO [1505407157 71ms] dns: exchanged A 2ip.ru. 300 IN A 188.40.167.82
++0300 2026-01-26 19:04:58 INFO [1505407157 71ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [2987622877 68ms] dns: exchanged AAAA www.curseforge.com. 300 IN AAAA 2606:4700::6811:1e03
++0300 2026-01-26 19:04:58 INFO [2987622877 68ms] dns: exchanged AAAA www.curseforge.com. 300 IN AAAA 2606:4700::6811:1d03
++0300 2026-01-26 19:04:58 INFO [2987622877 68ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [2953723073 68ms] dns: exchanged AAAA www.iplocation.net. 300 IN AAAA 2606:4700:20::681a:6d6
++0300 2026-01-26 19:04:58 INFO [2953723073 69ms] dns: exchanged AAAA www.iplocation.net. 300 IN AAAA 2606:4700:20::681a:7d6
++0300 2026-01-26 19:04:58 INFO [2953723073 69ms] dns: exchanged AAAA www.iplocation.net. 300 IN AAAA 2606:4700:20::ac43:44f0
++0300 2026-01-26 19:04:58 INFO [2953723073 69ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [1287592860 75ms] dns: exchanged A www.iplocation.net. 300 IN A 104.26.7.214
++0300 2026-01-26 19:04:58 INFO [1287592860 75ms] dns: exchanged A www.iplocation.net. 300 IN A 104.26.6.214
++0300 2026-01-26 19:04:58 INFO [1287592860 75ms] dns: exchanged A www.iplocation.net. 300 IN A 172.67.68.240
++0300 2026-01-26 19:04:58 INFO [1287592860 75ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [1592600254 77ms] dns: exchanged SOA google.com. 60 IN SOA ns1.google.com. dns-admin.google.com. 861111223 900 900 1800 60
++0300 2026-01-26 19:04:58 INFO [1592600254 77ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x003c, udp: 512
++0300 2026-01-26 19:04:58 INFO [382885923 116ms] dns: exchanged CNAME www.youtube.com. 300 IN CNAME youtube-ui.l.google.com.
++0300 2026-01-26 19:04:58 INFO [382885923 116ms] dns: exchanged AAAA youtube-ui.l.google.com. 300 IN AAAA 2a00:1450:400f:803::200e
++0300 2026-01-26 19:04:58 INFO [382885923 116ms] dns: exchanged AAAA youtube-ui.l.google.com. 300 IN AAAA 2a00:1450:400f:80b::200e
++0300 2026-01-26 19:04:58 INFO [382885923 116ms] dns: exchanged AAAA youtube-ui.l.google.com. 300 IN AAAA 2a00:1450:400f:804::200e
++0300 2026-01-26 19:04:58 INFO [382885923 116ms] dns: exchanged AAAA youtube-ui.l.google.com. 300 IN AAAA 2a00:1450:400f:806::200e
++0300 2026-01-26 19:04:58 INFO [382885923 116ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [1751845865 115ms] dns: exchanged HTTPS www.iplocation.net. 300 IN HTTPS 1 . alpn="h2" ipv4hint="104.26.6.214,104.26.7.214,172.67.68.240" ipv6hint="2606:4700:20::681a:6d6,2606:4700:20::681a:7d6,2606:4700:20::ac43:44f0"
++0300 2026-01-26 19:04:58 INFO [1751845865 115ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [1014515465 115ms] dns: exchanged A mail.google.com. 300 IN A 142.250.74.133
++0300 2026-01-26 19:04:58 INFO [2910730703 115ms] dns: exchanged A github.com. 60 IN A 4.225.11.194
++0300 2026-01-26 19:04:58 INFO [2910730703 115ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x003c, udp: 512
++0300 2026-01-26 19:04:58 INFO [1014515465 115ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [3811254054 115ms] dns: exchanged AAAA mail.google.com. 300 IN AAAA 2a00:1450:400f:804::2005
++0300 2026-01-26 19:04:58 INFO [3811254054 115ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [561430883 114ms] dns: exchanged CNAME www.speedtest.net. 300 IN CNAME www.speedtest.net.cdn.cloudflare.net.
++0300 2026-01-26 19:04:58 INFO [561430883 115ms] dns: exchanged A www.speedtest.net.cdn.cloudflare.net. 300 IN A 104.17.148.22
++0300 2026-01-26 19:04:58 INFO [561430883 115ms] dns: exchanged A www.speedtest.net.cdn.cloudflare.net. 300 IN A 104.17.147.22
++0300 2026-01-26 19:04:58 INFO [851851918 114ms] dns: exchanged HTTPS decky.xyz. 300 IN HTTPS 1 . alpn="h3,h2" ipv4hint="188.114.96.1,188.114.97.1" ech="AEX+DQBBBQAgACA80mmVKsKN7iHSblNUCnKjtRusqaXlVp5E780yf+f3NwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA=" ipv6hint="2a06:98c1:3120::1,2a06:98c1:3121::1"
++0300 2026-01-26 19:04:58 INFO [851851918 115ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [561430883 115ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [4293725145 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:60493
++0300 2026-01-26 19:04:58 INFO [4293725145 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [3543990516 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:47082
++0300 2026-01-26 19:04:58 INFO [3543990516 0ms] inbound/tun[tun-in]: inbound connection to 34.36.137.203:443
++0300 2026-01-26 19:04:58 INFO [3543990516 0ms] outbound/vless[proxy]: outbound connection to 34.36.137.203:443
++0300 2026-01-26 19:04:58 INFO [2804655012 63ms] dns: exchanged HTTPS www.curseforge.com. 300 IN HTTPS 1 . alpn="h3,h2" ipv4hint="104.17.29.3,104.17.30.3" ech="AEX+DQBBfAAgACBJWMIv6xoTZqgsBB7QrrNQKgUG0ZtPCKKPOFMveTJRcwAEAAEAAQASY2xvdWRmbGFyZS1lY2guY29tAAA=" ipv6hint="2606:4700::6811:1d03,2606:4700::6811:1e03"
++0300 2026-01-26 19:04:58 INFO [2804655012 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [1635820537 126ms] dns: exchanged A decky.xyz. 300 IN A 188.114.96.1
++0300 2026-01-26 19:04:58 INFO [1635820537 126ms] dns: exchanged A decky.xyz. 300 IN A 188.114.97.1
++0300 2026-01-26 19:04:58 INFO [1635820537 126ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [2786955346 139ms] dns: exchanged AAAA decky.xyz. 300 IN AAAA 2a06:98c1:3120::1
++0300 2026-01-26 19:04:58 INFO [2786955346 139ms] dns: exchanged AAAA decky.xyz. 300 IN AAAA 2a06:98c1:3121::1
++0300 2026-01-26 19:04:58 INFO [2786955346 139ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [996342366 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:49077
++0300 2026-01-26 19:04:58 INFO [996342366 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1522638979 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:42791
++0300 2026-01-26 19:04:58 INFO [1522638979 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [4293725145 64ms] dns: exchanged SOA cloudflare.net. 4 IN SOA ns1.cloudflare.net. dns.cloudflare.com. 2394641177 10000 2400 604800 5
++0300 2026-01-26 19:04:58 INFO [4293725145 64ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0004, udp: 512
++0300 2026-01-26 19:04:58 INFO [996342366 54ms] dns: exchanged A services.addons.mozilla.org. 18 IN A 151.101.65.91
++0300 2026-01-26 19:04:58 INFO [996342366 54ms] dns: exchanged A services.addons.mozilla.org. 18 IN A 151.101.193.91
++0300 2026-01-26 19:04:58 INFO [996342366 54ms] dns: exchanged A services.addons.mozilla.org. 18 IN A 151.101.1.91
++0300 2026-01-26 19:04:58 INFO [996342366 54ms] dns: exchanged A services.addons.mozilla.org. 18 IN A 151.101.129.91
++0300 2026-01-26 19:04:58 INFO [996342366 55ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0012, udp: 512
++0300 2026-01-26 19:04:58 INFO [1522638979 58ms] dns: exchanged AAAA services.addons.mozilla.org. 48 IN AAAA 2a04:4e42::347
++0300 2026-01-26 19:04:58 INFO [1522638979 58ms] dns: exchanged AAAA services.addons.mozilla.org. 48 IN AAAA 2a04:4e42:200::347
++0300 2026-01-26 19:04:58 INFO [1522638979 58ms] dns: exchanged AAAA services.addons.mozilla.org. 48 IN AAAA 2a04:4e42:400::347
++0300 2026-01-26 19:04:58 INFO [1522638979 58ms] dns: exchanged AAAA services.addons.mozilla.org. 48 IN AAAA 2a04:4e42:600::347
++0300 2026-01-26 19:04:58 INFO [1522638979 58ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0030, udp: 512
++0300 2026-01-26 19:04:58 INFO [2919517109 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:52694
++0300 2026-01-26 19:04:58 INFO [2919517109 0ms] inbound/tun[tun-in]: inbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [3515048746 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:52700
++0300 2026-01-26 19:04:58 INFO [3515048746 0ms] inbound/tun[tun-in]: inbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [396132203 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:52722
++0300 2026-01-26 19:04:58 INFO [3515048746 0ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [2919517109 0ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [396132203 0ms] inbound/tun[tun-in]: inbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [2108759832 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:52712
++0300 2026-01-26 19:04:58 INFO [2108759832 0ms] inbound/tun[tun-in]: inbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [396132203 0ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [2108759832 0ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [3543990516 120ms] outbound/vless[proxy]: outbound connection to 34.36.137.203:443
++0300 2026-01-26 19:04:58 INFO [396132203 131ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [2108759832 133ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [3515048746 133ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [2919517109 142ms] outbound/vless[proxy]: outbound connection to 151.101.65.91:443
++0300 2026-01-26 19:04:58 INFO [3905289457 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:48831
++0300 2026-01-26 19:04:58 INFO [3905289457 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [279974048 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:46285
++0300 2026-01-26 19:04:58 INFO [279974048 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1056038764 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:59670
++0300 2026-01-26 19:04:58 INFO [1056038764 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [302474499 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:49512
++0300 2026-01-26 19:04:58 INFO [302474499 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [4140903635 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:59643
++0300 2026-01-26 19:04:58 INFO [4140903635 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [279974048 53ms] dns: exchanged CNAME easylist-downloads.adblockplus.org. 103 IN CNAME production-filterlist-delivery.easylist-downloads.adblockplus.org.edgesuite.net.
++0300 2026-01-26 19:04:58 INFO [279974048 53ms] dns: exchanged CNAME production-filterlist-delivery.easylist-downloads.adblockplus.org.edgesuite.net. 103 IN CNAME a1446.dscr.akamai.net.
++0300 2026-01-26 19:04:58 INFO [279974048 53ms] dns: exchanged SOA dscr.akamai.net. 103 IN SOA n0dscr.akamai.net. hostmaster.akamai.com. 1769442963 1000 1000 1000 1800
++0300 2026-01-26 19:04:58 INFO [279974048 53ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0067, udp: 512
++0300 2026-01-26 19:04:58 INFO [4018675498 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:55864
++0300 2026-01-26 19:04:58 INFO [4018675498 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1056038764 58ms] dns: exchanged CNAME easylist-downloads.adblockplus.org. 20 IN CNAME production-filterlist-delivery.easylist-downloads.adblockplus.org.edgesuite.net.
++0300 2026-01-26 19:04:58 INFO [1056038764 58ms] dns: exchanged CNAME production-filterlist-delivery.easylist-downloads.adblockplus.org.edgesuite.net. 20 IN CNAME a1446.dscr.akamai.net.
++0300 2026-01-26 19:04:58 INFO [1056038764 58ms] dns: exchanged AAAA a1446.dscr.akamai.net. 20 IN AAAA 2a02:26f0:e2::6854:99a9
++0300 2026-01-26 19:04:58 INFO [1056038764 58ms] dns: exchanged AAAA a1446.dscr.akamai.net. 20 IN AAAA 2a02:26f0:e2::6854:99ab
++0300 2026-01-26 19:04:58 INFO [1056038764 58ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0014, udp: 512
++0300 2026-01-26 19:04:58 INFO [3905289457 58ms] dns: exchanged CNAME easylist-downloads.adblockplus.org. 20 IN CNAME production-filterlist-delivery.easylist-downloads.adblockplus.org.edgesuite.net.
++0300 2026-01-26 19:04:58 INFO [3905289457 59ms] dns: exchanged CNAME production-filterlist-delivery.easylist-downloads.adblockplus.org.edgesuite.net. 20 IN CNAME a1446.dscr.akamai.net.
++0300 2026-01-26 19:04:58 INFO [3905289457 59ms] dns: exchanged A a1446.dscr.akamai.net. 20 IN A 23.60.69.8
++0300 2026-01-26 19:04:58 INFO [3905289457 59ms] dns: exchanged A a1446.dscr.akamai.net. 20 IN A 2.21.240.102
++0300 2026-01-26 19:04:58 INFO [3905289457 59ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0014, udp: 512
++0300 2026-01-26 19:04:58 INFO [174845065 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:44654
++0300 2026-01-26 19:04:58 INFO [174845065 0ms] inbound/tun[tun-in]: inbound connection to 23.60.69.8:443
++0300 2026-01-26 19:04:58 INFO [174845065 1ms] outbound/vless[proxy]: outbound connection to 23.60.69.8:443
++0300 2026-01-26 19:04:58 INFO [2944676489 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:52054
++0300 2026-01-26 19:04:58 INFO [2944676489 0ms] inbound/tun[tun-in]: inbound connection to 151.101.1.91:443
++0300 2026-01-26 19:04:58 INFO [2944676489 1ms] outbound/vless[proxy]: outbound connection to 151.101.1.91:443
++0300 2026-01-26 19:04:58 INFO [4140903635 56ms] dns: exchanged SOA services.mozilla.com. 643 IN SOA ns-679.awsdns-20.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:04:58 INFO [4140903635 56ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0283, udp: 512
++0300 2026-01-26 19:04:58 INFO [302474499 56ms] dns: exchanged A push.services.mozilla.com. 13 IN A 34.107.243.93
++0300 2026-01-26 19:04:58 INFO [302474499 57ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x000d, udp: 512
++0300 2026-01-26 19:04:58 INFO [4018675498 52ms] dns: exchanged SOA dscr.akamai.net. 406 IN SOA n0dscr.akamai.net. hostmaster.akamai.com. 1769442904 1000 1000 1000 1800
++0300 2026-01-26 19:04:58 INFO [4018675498 52ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0196, udp: 512
++0300 2026-01-26 19:04:58 INFO [840836725 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:44658
++0300 2026-01-26 19:04:58 INFO [840836725 0ms] inbound/tun[tun-in]: inbound connection to 23.60.69.8:443
++0300 2026-01-26 19:04:58 INFO [840836725 1ms] outbound/vless[proxy]: outbound connection to 23.60.69.8:443
++0300 2026-01-26 19:04:58 INFO [2199055266 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:32886
++0300 2026-01-26 19:04:58 INFO [2199055266 0ms] inbound/tun[tun-in]: inbound connection to 34.107.243.93:443
++0300 2026-01-26 19:04:58 INFO [2199055266 1ms] outbound/vless[proxy]: outbound connection to 34.107.243.93:443
++0300 2026-01-26 19:04:58 INFO [1485211082 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:38356
++0300 2026-01-26 19:04:58 INFO [1485211082 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1524244882 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:53778
++0300 2026-01-26 19:04:58 INFO [1524244882 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [4149304502 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:46546
++0300 2026-01-26 19:04:58 INFO [4149304502 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2113646052 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:52744
++0300 2026-01-26 19:04:58 INFO [2113646052 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [289048101 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:47988
++0300 2026-01-26 19:04:58 INFO [289048101 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [109919686 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:43141
++0300 2026-01-26 19:04:58 INFO [109919686 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [1636619875 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:54422
++0300 2026-01-26 19:04:58 INFO [1636619875 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [3285092447 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:56206
++0300 2026-01-26 19:04:58 INFO [3285092447 0ms] inbound/tun[tun-in]: inbound connection to 34.107.221.82:80
++0300 2026-01-26 19:04:58 INFO [3285092447 0ms] outbound/vless[proxy]: outbound connection to 34.107.221.82:80
++0300 2026-01-26 19:04:58 INFO [1524244882 56ms] dns: exchanged CNAME incoming.telemetry.mozilla.org. 1 IN CNAME telemetry-incoming.r53-2.services.mozilla.com.
++0300 2026-01-26 19:04:58 INFO [1524244882 57ms] dns: exchanged SOA r53-2.services.mozilla.com. 1 IN SOA ns-1507.awsdns-60.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:04:58 INFO [1524244882 57ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0001, udp: 512
++0300 2026-01-26 19:04:58 INFO [1485211082 56ms] dns: exchanged CNAME incoming.telemetry.mozilla.org. 1 IN CNAME telemetry-incoming.r53-2.services.mozilla.com.
++0300 2026-01-26 19:04:58 INFO [1485211082 57ms] dns: exchanged A telemetry-incoming.r53-2.services.mozilla.com. 1 IN A 34.120.208.123
++0300 2026-01-26 19:04:58 INFO [1485211082 57ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0001, udp: 512
++0300 2026-01-26 19:04:58 INFO [4125949804 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:53405
++0300 2026-01-26 19:04:58 INFO [4125949804 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:04:58 INFO [2944676489 123ms] outbound/vless[proxy]: outbound connection to 151.101.1.91:443
++0300 2026-01-26 19:04:58 INFO [109919686 55ms] dns: exchanged A ipv4only.arpa. 19647 IN A 192.0.0.170
++0300 2026-01-26 19:04:58 INFO [109919686 55ms] dns: exchanged A ipv4only.arpa. 19647 IN A 192.0.0.171
++0300 2026-01-26 19:04:58 INFO [109919686 56ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x4cbf, udp: 512
++0300 2026-01-26 19:04:58 INFO [1636619875 55ms] dns: exchanged SOA ipv4only.arpa. 1195 IN SOA sns.dns.icann.org. noc.dns.icann.org. 2022072100 7200 3600 604800 3600
++0300 2026-01-26 19:04:58 INFO [1636619875 56ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x04ab, udp: 512
++0300 2026-01-26 19:04:58 INFO [2113646052 62ms] dns: exchanged HTTPS cloudflare-dns.com. 300 IN HTTPS 1 . alpn="h3,h2" ipv4hint="104.16.248.249,104.16.249.249" ipv6hint="2606:4700::6810:f8f9,2606:4700::6810:f9f9"
++0300 2026-01-26 19:04:58 INFO [2113646052 62ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [289048101 63ms] dns: exchanged AAAA example.org. 300 IN AAAA 2606:4700::6812:318
++0300 2026-01-26 19:04:58 INFO [289048101 63ms] dns: exchanged AAAA example.org. 300 IN AAAA 2606:4700::6812:218
++0300 2026-01-26 19:04:58 INFO [289048101 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [4149304502 64ms] dns: exchanged A example.org. 300 IN A 104.18.2.24
++0300 2026-01-26 19:04:58 INFO [4149304502 64ms] dns: exchanged A example.org. 300 IN A 104.18.3.24
++0300 2026-01-26 19:04:58 INFO [4149304502 64ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:04:58 INFO [174845065 157ms] outbound/vless[proxy]: outbound connection to 23.60.69.8:443
++0300 2026-01-26 19:04:58 INFO [840836725 124ms] outbound/vless[proxy]: outbound connection to 23.60.69.8:443
++0300 2026-01-26 19:04:58 INFO [4125949804 53ms] dns: exchanged SOA r53-2.services.mozilla.com. 89 IN SOA ns-1507.awsdns-60.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:04:58 INFO [4125949804 53ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0059, udp: 512
++0300 2026-01-26 19:04:58 INFO [434063993 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36804
++0300 2026-01-26 19:04:58 INFO [434063993 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:58 INFO [434063993 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:58 INFO [2199055266 142ms] outbound/vless[proxy]: outbound connection to 34.107.243.93:443
++0300 2026-01-26 19:04:58 INFO [3285092447 128ms] outbound/vless[proxy]: outbound connection to 34.107.221.82:80
++0300 2026-01-26 19:04:58 INFO [3579666805 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:32896
++0300 2026-01-26 19:04:58 INFO [3579666805 0ms] inbound/tun[tun-in]: inbound connection to 34.107.243.93:443
++0300 2026-01-26 19:04:58 INFO [3579666805 0ms] outbound/vless[proxy]: outbound connection to 34.107.243.93:443
++0300 2026-01-26 19:04:58 INFO [434063993 213ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:58 INFO [3579666805 121ms] outbound/vless[proxy]: outbound connection to 34.107.243.93:443
++0300 2026-01-26 19:04:59 INFO [2250591052 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:55454
++0300 2026-01-26 19:04:59 INFO [2250591052 0ms] inbound/tun[tun-in]: inbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [2250591052 0ms] outbound/vless[proxy]: outbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [2727504843 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36814
++0300 2026-01-26 19:04:59 INFO [2727504843 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [2727504843 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [2250591052 130ms] outbound/vless[proxy]: outbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [921114409 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:55460
++0300 2026-01-26 19:04:59 INFO [921114409 0ms] inbound/tun[tun-in]: inbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [2727504843 122ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [921114409 0ms] outbound/vless[proxy]: outbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [1372678736 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:55468
++0300 2026-01-26 19:04:59 INFO [1372678736 0ms] inbound/tun[tun-in]: inbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [1372678736 0ms] outbound/vless[proxy]: outbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [884832268 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36828
++0300 2026-01-26 19:04:59 INFO [884832268 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [884832268 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [921114409 127ms] outbound/vless[proxy]: outbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [1372678736 144ms] outbound/vless[proxy]: outbound connection to 188.40.167.82:443
++0300 2026-01-26 19:04:59 INFO [884832268 125ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [7253603 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36832
++0300 2026-01-26 19:04:59 INFO [7253603 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [7253603 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [7253603 142ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [2918922028 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36846
++0300 2026-01-26 19:04:59 INFO [2918922028 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [2918922028 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [2918922028 135ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [643731374 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36850
++0300 2026-01-26 19:04:59 INFO [643731374 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [643731374 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:04:59 INFO [643731374 134ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [1931614186 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:47191
++0300 2026-01-26 19:05:00 INFO [1931614186 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:00 INFO [3368672637 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:56146
++0300 2026-01-26 19:05:00 INFO [3368672637 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:00 INFO [3368672637 70ms] dns: exchanged CNAME firefox-settings-attachments.cdn.mozilla.net. 5 IN CNAME mozilla.map.fastly.net.
++0300 2026-01-26 19:05:00 INFO [3368672637 70ms] dns: exchanged A mozilla.map.fastly.net. 5 IN A 151.101.193.91
++0300 2026-01-26 19:05:00 INFO [3368672637 70ms] dns: exchanged A mozilla.map.fastly.net. 5 IN A 151.101.129.91
++0300 2026-01-26 19:05:00 INFO [3368672637 70ms] dns: exchanged A mozilla.map.fastly.net. 5 IN A 151.101.1.91
++0300 2026-01-26 19:05:00 INFO [3368672637 70ms] dns: exchanged A mozilla.map.fastly.net. 5 IN A 151.101.65.91
++0300 2026-01-26 19:05:00 INFO [3368672637 70ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0005, udp: 512
++0300 2026-01-26 19:05:00 INFO [1931614186 71ms] dns: exchanged CNAME firefox-settings-attachments.cdn.mozilla.net. 3 IN CNAME mozilla.map.fastly.net.
++0300 2026-01-26 19:05:00 INFO [1931614186 71ms] dns: exchanged AAAA mozilla.map.fastly.net. 3 IN AAAA 2a04:4e42::347
++0300 2026-01-26 19:05:00 INFO [1931614186 71ms] dns: exchanged AAAA mozilla.map.fastly.net. 3 IN AAAA 2a04:4e42:200::347
++0300 2026-01-26 19:05:00 INFO [1931614186 71ms] dns: exchanged AAAA mozilla.map.fastly.net. 3 IN AAAA 2a04:4e42:600::347
++0300 2026-01-26 19:05:00 INFO [1931614186 71ms] dns: exchanged AAAA mozilla.map.fastly.net. 3 IN AAAA 2a04:4e42:400::347
++0300 2026-01-26 19:05:00 INFO [1931614186 71ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0003, udp: 512
++0300 2026-01-26 19:05:00 INFO [3945070409 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:48430
++0300 2026-01-26 19:05:00 INFO [3945070409 0ms] inbound/tun[tun-in]: inbound connection to 151.101.193.91:443
++0300 2026-01-26 19:05:00 INFO [3945070409 0ms] outbound/vless[proxy]: outbound connection to 151.101.193.91:443
++0300 2026-01-26 19:05:00 INFO [3945070409 147ms] outbound/vless[proxy]: outbound connection to 151.101.193.91:443
++0300 2026-01-26 19:05:00 INFO [4113119805 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36864
++0300 2026-01-26 19:05:00 INFO [4113119805 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [4113119805 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [4113119805 126ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [671727903 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36874
++0300 2026-01-26 19:05:00 INFO [671727903 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [671727903 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [671727903 122ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [1196385241 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36888
++0300 2026-01-26 19:05:00 INFO [1196385241 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:00 INFO [1196385241 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [3494862195 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:40052
++0300 2026-01-26 19:05:01 INFO [3494862195 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [2753421027 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:51660
++0300 2026-01-26 19:05:01 INFO [2753421027 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [4109121897 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:44063
++0300 2026-01-26 19:05:01 INFO [4109121897 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [3124831114 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:50647
++0300 2026-01-26 19:05:01 INFO [3124831114 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [2526945127 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:54624
++0300 2026-01-26 19:05:01 INFO [2526945127 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [1171973917 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:59457
++0300 2026-01-26 19:05:01 INFO [1171973917 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [2883908973 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:45901
++0300 2026-01-26 19:05:01 INFO [2883908973 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [1037287771 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:43926
++0300 2026-01-26 19:05:01 INFO [1037287771 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [1944157172 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:46842
++0300 2026-01-26 19:05:01 INFO [1944157172 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [1196385241 146ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [2753421027 60ms] dns: exchanged SOA 2ip.io. 166 IN SOA clark.ns.cloudflare.com. dns.cloudflare.com. 2394668398 10000 2400 604800 1800
++0300 2026-01-26 19:05:01 INFO [2753421027 60ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x00a6, udp: 512
++0300 2026-01-26 19:05:01 INFO [3494862195 66ms] dns: exchanged HTTPS static.2ip.io. 300 IN HTTPS 1 . alpn="h2" ipv4hint="188.114.96.1,188.114.97.1" ipv6hint="2a06:98c1:3120::1,2a06:98c1:3121::1"
++0300 2026-01-26 19:05:01 INFO [3494862195 66ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:05:01 INFO [4109121897 66ms] dns: exchanged A static.2ip.io. 300 IN A 188.114.97.1
++0300 2026-01-26 19:05:01 INFO [4109121897 66ms] dns: exchanged A static.2ip.io. 300 IN A 188.114.96.1
++0300 2026-01-26 19:05:01 INFO [4109121897 66ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:05:01 INFO [2526945127 62ms] dns: exchanged CNAME s.luxcdn.com. 84 IN CNAME cdn.luxcdn.com.
++0300 2026-01-26 19:05:01 INFO [2526945127 62ms] dns: exchanged SOA luxcdn.com. 84 IN SOA ns-1151.awsdns-15.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:05:01 INFO [2526945127 62ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0054, udp: 512
++0300 2026-01-26 19:05:01 INFO [1171973917 62ms] dns: exchanged CNAME s.luxcdn.com. 86 IN CNAME cdn.luxcdn.com.
++0300 2026-01-26 19:05:01 INFO [1171973917 62ms] dns: exchanged A cdn.luxcdn.com. 86 IN A 92.38.252.67
++0300 2026-01-26 19:05:01 INFO [1171973917 62ms] dns: exchanged A cdn.luxcdn.com. 86 IN A 92.38.252.68
++0300 2026-01-26 19:05:01 INFO [1171973917 62ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0056, udp: 512
++0300 2026-01-26 19:05:01 INFO [3124831114 62ms] dns: exchanged CNAME s.luxcdn.com. 86 IN CNAME cdn.luxcdn.com.
++0300 2026-01-26 19:05:01 INFO [3124831114 63ms] dns: exchanged SOA luxcdn.com. 86 IN SOA ns-1151.awsdns-15.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:05:01 INFO [3124831114 63ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0056, udp: 512
++0300 2026-01-26 19:05:01 INFO [306112639 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:40716
++0300 2026-01-26 19:05:01 INFO [306112639 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [1134129605 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:46742
++0300 2026-01-26 19:05:01 INFO [1134129605 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [2883908973 67ms] dns: exchanged A www.googletagmanager.com. 234 IN A 142.251.38.104
++0300 2026-01-26 19:05:01 INFO [2883908973 67ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x00ea, udp: 512
++0300 2026-01-26 19:05:01 INFO [1944157172 79ms] dns: exchanged SOA googletagmanager.com. 60 IN SOA ns1.google.com. dns-admin.google.com. 861111223 900 900 1800 60
++0300 2026-01-26 19:05:01 INFO [1944157172 79ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x003c, udp: 512
++0300 2026-01-26 19:05:01 INFO [1037287771 80ms] dns: exchanged AAAA www.googletagmanager.com. 300 IN AAAA 2a00:1450:400f:806::2008
++0300 2026-01-26 19:05:01 INFO [1037287771 80ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:05:01 INFO [2879288900 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36896
++0300 2026-01-26 19:05:01 INFO [2879288900 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [2879288900 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [3173808984 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53482
++0300 2026-01-26 19:05:01 INFO [3173808984 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [349061403 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53490
++0300 2026-01-26 19:05:01 INFO [349061403 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [685080573 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53494
++0300 2026-01-26 19:05:01 INFO [685080573 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [2091792200 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53492
++0300 2026-01-26 19:05:01 INFO [2091792200 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3173808984 2ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [349061403 2ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3420709844 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53510
++0300 2026-01-26 19:05:01 INFO [3420709844 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [2091792200 4ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [685080573 4ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [2337155741 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53522
++0300 2026-01-26 19:05:01 INFO [2337155741 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3420709844 3ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [306112639 58ms] dns: exchanged SOA luxcdn.com. 572 IN SOA ns-1151.awsdns-15.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:05:01 INFO [306112639 58ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x023c, udp: 512
++0300 2026-01-26 19:05:01 INFO [2337155741 3ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [1268008152 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53532
++0300 2026-01-26 19:05:01 INFO [1268008152 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [1134129605 60ms] dns: exchanged SOA luxcdn.com. 45 IN SOA ns-1151.awsdns-15.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:05:01 INFO [1134129605 60ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x002d, udp: 512
++0300 2026-01-26 19:05:01 INFO [1138239370 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57868
++0300 2026-01-26 19:05:01 INFO [1138239370 0ms] inbound/tun[tun-in]: inbound packet connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 ERROR [1138239370 0ms] router: UDP is not supported by outbound: proxy
++0300 2026-01-26 19:05:01 INFO [506423770 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53534
++0300 2026-01-26 19:05:01 INFO [506423770 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [769210757 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53546
++0300 2026-01-26 19:05:01 INFO [769210757 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [1268008152 2ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [506423770 2ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [769210757 3ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [2636059092 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:48417
++0300 2026-01-26 19:05:01 INFO [2636059092 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [270371939 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:59878
++0300 2026-01-26 19:05:01 INFO [270371939 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [3767225612 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:38019
++0300 2026-01-26 19:05:01 INFO [3767225612 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:01 INFO [2879288900 127ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [3767225612 51ms] dns: exchanged SOA 2ip.io. 414 IN SOA clark.ns.cloudflare.com. dns.cloudflare.com. 2394668398 10000 2400 604800 1800
++0300 2026-01-26 19:05:01 INFO [3767225612 51ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x019e, udp: 512
++0300 2026-01-26 19:05:01 INFO [270371939 59ms] dns: exchanged AAAA get-v6.2ip.io. 300 IN AAAA 2a01:4f8:1c17:d515::1
++0300 2026-01-26 19:05:01 INFO [270371939 59ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x012c, udp: 512
++0300 2026-01-26 19:05:01 INFO [2636059092 59ms] dns: exchanged SOA 2ip.io. 1800 IN SOA clark.ns.cloudflare.com. dns.cloudflare.com. 2394668398 10000 2400 604800 1800
++0300 2026-01-26 19:05:01 INFO [2636059092 60ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0708, udp: 512
++0300 2026-01-26 19:05:01 INFO [4147874967 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:45568
++0300 2026-01-26 19:05:01 INFO [4147874967 0ms] inbound/tun[tun-in]: inbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [4147874967 1ms] outbound/vless[proxy]: outbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [2091792200 125ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3326183183 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53558
++0300 2026-01-26 19:05:01 INFO [3326183183 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [1773959040 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53554
++0300 2026-01-26 19:05:01 INFO [1773959040 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [179320674 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:53552
++0300 2026-01-26 19:05:01 INFO [179320674 0ms] inbound/tun[tun-in]: inbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [685080573 127ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [179320674 2ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [1773959040 3ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3326183183 4ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [2337155741 126ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [1268008152 124ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [769210757 128ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3173808984 139ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3741491576 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36906
++0300 2026-01-26 19:05:01 INFO [3741491576 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [3741491576 1ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [3420709844 144ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [506423770 138ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [349061403 156ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [1773959040 127ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [4147874967 149ms] outbound/vless[proxy]: outbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [179320674 138ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3326183183 141ms] outbound/vless[proxy]: outbound connection to 188.114.97.1:443
++0300 2026-01-26 19:05:01 INFO [3741491576 136ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [1845193591 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57868
++0300 2026-01-26 19:05:01 INFO [1845193591 0ms] inbound/tun[tun-in]: inbound packet connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 ERROR [1845193591 0ms] router: UDP is not supported by outbound: proxy
++0300 2026-01-26 19:05:01 INFO [2528078462 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:45582
++0300 2026-01-26 19:05:01 INFO [2528078462 0ms] inbound/tun[tun-in]: inbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [2528078462 0ms] outbound/vless[proxy]: outbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [1029666978 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36908
++0300 2026-01-26 19:05:01 INFO [1029666978 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [1029666978 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [2528078462 123ms] outbound/vless[proxy]: outbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [1029666978 130ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:01 INFO [425492424 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:45594
++0300 2026-01-26 19:05:01 INFO [425492424 0ms] inbound/tun[tun-in]: inbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [425492424 0ms] outbound/vless[proxy]: outbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:01 INFO [425492424 125ms] outbound/vless[proxy]: outbound connection to 142.251.38.104:443
++0300 2026-01-26 19:05:02 INFO [4024011581 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57868
++0300 2026-01-26 19:05:02 INFO [4024011581 0ms] inbound/tun[tun-in]: inbound packet connection to 142.251.38.104:443
++0300 2026-01-26 19:05:02 ERROR [4024011581 0ms] router: UDP is not supported by outbound: proxy
++0300 2026-01-26 19:05:02 INFO [1740374550 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36912
++0300 2026-01-26 19:05:02 INFO [1740374550 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:02 INFO [1740374550 1ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:02 INFO [1740374550 135ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:02 INFO [3607839358 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36916
++0300 2026-01-26 19:05:02 INFO [3607839358 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:02 INFO [3607839358 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [3607839358 158ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [2501799187 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36918
++0300 2026-01-26 19:05:03 INFO [2501799187 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [2501799187 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [2501799187 145ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [52869752 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57868
++0300 2026-01-26 19:05:03 INFO [52869752 0ms] inbound/tun[tun-in]: inbound packet connection to 142.251.38.104:443
++0300 2026-01-26 19:05:03 ERROR [52869752 0ms] router: UDP is not supported by outbound: proxy
++0300 2026-01-26 19:05:03 INFO [3337758046 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36932
++0300 2026-01-26 19:05:03 INFO [3337758046 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [3337758046 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [3337758046 130ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [4238129693 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36936
++0300 2026-01-26 19:05:03 INFO [4238129693 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [4238129693 1ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [4238129693 151ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [2877217385 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36944
++0300 2026-01-26 19:05:03 INFO [2877217385 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [2877217385 0ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:03 INFO [2877217385 127ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:05 INFO [253387737 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57868
++0300 2026-01-26 19:05:05 INFO [253387737 0ms] inbound/tun[tun-in]: inbound packet connection to 142.251.38.104:443
++0300 2026-01-26 19:05:05 ERROR [253387737 0ms] router: UDP is not supported by outbound: proxy
++0300 2026-01-26 19:05:07 INFO [644830566 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36958
++0300 2026-01-26 19:05:07 INFO [644830566 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [644830566 1ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [3389107117 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36968
++0300 2026-01-26 19:05:07 INFO [3389107117 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [3389107117 1ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [91482194 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36976
++0300 2026-01-26 19:05:07 INFO [91482194 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [91482194 1ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [644830566 134ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [91482194 136ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:07 INFO [3389107117 149ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:08 INFO [1431176740 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:49492
++0300 2026-01-26 19:05:08 INFO [1431176740 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:08 INFO [3029739143 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:57423
++0300 2026-01-26 19:05:08 INFO [3029739143 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:08 INFO [1431176740 54ms] dns: exchanged CNAME incoming.telemetry.mozilla.org. 51 IN CNAME telemetry-incoming.r53-2.services.mozilla.com.
++0300 2026-01-26 19:05:08 INFO [1431176740 54ms] dns: exchanged A telemetry-incoming.r53-2.services.mozilla.com. 51 IN A 34.120.208.123
++0300 2026-01-26 19:05:08 INFO [1431176740 54ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0033, udp: 512
++0300 2026-01-26 19:05:08 INFO [3029739143 59ms] dns: exchanged CNAME incoming.telemetry.mozilla.org. 35 IN CNAME telemetry-incoming.r53-2.services.mozilla.com.
++0300 2026-01-26 19:05:08 INFO [3029739143 59ms] dns: exchanged SOA r53-2.services.mozilla.com. 35 IN SOA ns-1507.awsdns-60.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
++0300 2026-01-26 19:05:08 INFO [3029739143 59ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x0023, udp: 512
++0300 2026-01-26 19:05:08 INFO [921625391 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36990
++0300 2026-01-26 19:05:08 INFO [921625391 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:08 INFO [1395976412 0ms] inbound/tun[tun-in]: inbound connection from 172.19.0.1:36988
++0300 2026-01-26 19:05:08 INFO [1395976412 0ms] inbound/tun[tun-in]: inbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:08 INFO [1395976412 3ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:08 INFO [921625391 3ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:08 INFO [1395976412 126ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:08 INFO [921625391 128ms] outbound/vless[proxy]: outbound connection to 34.120.208.123:443
++0300 2026-01-26 19:05:44 INFO [2146477922 0ms] inbound/tun[tun-in]: inbound packet connection from 172.19.0.1:47228
++0300 2026-01-26 19:05:44 INFO [2146477922 0ms] inbound/tun[tun-in]: inbound packet connection to 172.19.0.2:53
++0300 2026-01-26 19:05:44 INFO [2146477922 65ms] dns: exchanged A p2p-sto2.discovery.steamserver.net. 59 IN A 155.133.252.39
++0300 2026-01-26 19:05:44 INFO [2146477922 65ms] dns: exchanged A p2p-sto2.discovery.steamserver.net. 59 IN A 155.133.252.40
++0300 2026-01-26 19:05:44 INFO [2146477922 65ms] dns: exchanged A p2p-sto2.discovery.steamserver.net. 59 IN A 155.133.252.54
++0300 2026-01-26 19:05:44 INFO [2146477922 65ms] dns: exchanged OPT OPT PSEUDOSECTION: EDNS: version 0 flags: MBZ: 0x003b, udp: 512
++0300 2026-01-26 19:05:51 INFO network: updated default interface wlan0, index 3
++0300 2026-01-26 19:05:51 INFO inbound/tun[tun-in]: started at tun0
++0300 2026-01-26 19:05:51 INFO sing-box started (0.00s)
++0300 2026-01-26 19:05:51 INFO network: updated default interface wlan0, index 3
