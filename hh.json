@@ -6,26 +6,12 @@
   },
   "dns": {
     "servers": [
-      {
-        "tag": "dns-remote",
-        "address": "8.8.8.8",
-        "detour": "proxy"
-      },
-      {
-        "tag": "dns-direct",
-        "address": "1.1.1.1",
-        "detour": "direct"
-      }
+      { "tag": "dns-remote", "address": "8.8.8.8", "detour": "proxy" },
+      { "tag": "dns-direct", "address": "1.1.1.1", "detour": "direct" }
     ],
     "rules": [
-      {
-        "protocol": "dns",
-        "server": "dns-direct"
-      },
-      {
-        "outbound": "proxy",
-        "server": "dns-remote"
-      }
+      { "protocol": "dns", "server": "dns-direct" },
+      { "outbound": "proxy", "server": "dns-remote" }
     ],
     "final": "dns-direct"
   },
@@ -34,9 +20,7 @@
       "type": "tun",
       "tag": "tun-in",
       "interface_name": "tun0",
-      "address": [
-        "172.19.0.1/30"
-      ],
+      "address": ["172.19.0.1/30"],
       "auto_route": true,
       "strict_route": true,
       "stack": "system",
@@ -52,14 +36,11 @@
       "server_port": 40443,
       "uuid": "4805d4cb-95ff-4122-ac8c-5b29aa06df7a",
       "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "network": "tcp,udp",
       "tls": {
         "enabled": true,
         "server_name": "eh.vk.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
+        "utls": { "enabled": true, "fingerprint": "qq" },
         "reality": {
           "enabled": true,
           "public_key": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
@@ -67,36 +48,15 @@
         }
       }
     },
-    {
-      "type": "direct",
-      "tag": "direct"
-    }
+    { "type": "direct", "tag": "direct" }
   ],
   "route": {
     "auto_detect_interface": true,
     "rules": [
-      {
-        "protocol": "dns",
-        "action": "hijack-dns"
-      },
-      {
-        "ip_is_private": true,
-        "outbound": "direct"
-      },
-      {
-        "protocol": "udp",
-        "outbound": "direct"
-      },
-      {
-        "domain_suffix": [
-          "discord.com",
-          "discord.gg",
-          "discordapp.net",
-          "ea.com",
-          "origin.com"
-        ],
-        "outbound": "direct"
-      }
+      { "protocol": "dns", "action": "hijack-dns" },
+      { "ip_is_private": true, "outbound": "direct" },
+      { "domain_suffix": ["discord.com", "discord.gg", "discordapp.net"], "outbound": "proxy" },
+      { "network": "udp", "outbound": "proxy" }
     ]
   }
 }
