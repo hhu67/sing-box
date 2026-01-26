@@ -1,17 +1,16 @@
 {
-  "log": { "loglevel": "info" },
+  "log": {
+    "loglevel": "info"
+  },
   "inbounds": [
     {
       "port": 10808,
       "protocol": "socks",
-      "settings": { "auth": "noauth", "udp": true },
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
       "tag": "socks-in"
-    },
-    {
-      "port": 10809,
-      "protocol": "http",
-      "settings": {},
-      "tag": "http-in"
     }
   ],
   "outbounds": [
@@ -46,12 +45,21 @@
         }
       }
     },
-    { "protocol": "freedom", "tag": "direct" }
+    {
+      "protocol": "freedom",
+      "tag": "direct",
+      "settings": {}
+    }
   ],
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
-      { "type": "field", "outboundTag": "direct", "ip": ["geoip:private"] }
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": ["geoip:private"]
+      }
     ]
   }
 }
+
