@@ -1,62 +1,88 @@
 {
   "log": {
-    "level": "info",
-    "output": "/home/deck/sing-box/sing-box.log",
-    "timestamp": true
+    "loglevel": "info"
   },
   "dns": {
     "servers": [
-      { "tag": "dns-remote", "address": "8.8.8.8", "detour": "proxy" },
-      { "tag": "dns-direct", "address": "1.1.1.1", "detour": "direct" }
-    ],
-    "rules": [
-      { "protocol": "dns", "server": "dns-direct" },
-      { "outbound": "proxy", "server": "dns-remote" }
-    ],
-    "final": "dns-direct"
+      "8.8.8.8",
+      "1.1.1.1"
+    ]
   },
   "inbounds": [
     {
-      "type": "tun",
-      "tag": "tun-in",
-      "interface_name": "tun0",
-      "address": ["172.19.0.1/30"],
-      "auto_route": true,
-      "strict_route": true,
-      "stack": "system",
-      "sniff": true,
-      "udp_timeout": "300s"
+      "port": 0,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "network": "tcp,udp",
+        "followRedirect": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls", "quic"]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "tproxy": "tproxy"
+        }
+      },
+      "tag": "tun-in"
     }
   ],
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "proxy",
-      "server": "se-balancer.vkproxy.com",
-      "server_port": 40443,
-      "uuid": "4805d4cb-95ff-4122-ac8c-5b29aa06df7a",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp,udp",
-      "tls": {
-        "enabled": true,
-        "server_name": "eh.vk.com",
-        "utls": { "enabled": true, "fingerprint": "qq" },
-        "reality": {
-          "enabled": true,
-          "public_key": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
-          "short_id": "505c94b8c65afb0a"
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "se-balancer.vkproxy.com",
+            "port": 40443,
+            "users": [
+              {
+                "id": "4805d4cb-95ff-4122-ac8c-5b29aa06df7a",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "qq",
+          "serverName": "eh.vk.com",
+          "publicKey": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
+          "shortId": "505c94b8c65afb0a",
+          "spiderX": "/"
+        },
+        "sockopt": {
+          "mark": 255
         }
-      }
+      },
+      "tag": "proxy"
     },
-    { "type": "direct", "tag": "direct" }
+    {
+      "protocol": "freedom",
+      "tag": "direct",
+      "settings": {}
+    }
   ],
-  "route": {
-    "auto_detect_interface": true,
+  "routing": {
+    "domainStrategy": "AsIs",
     "rules": [
-      { "protocol": "dns", "action": "hijack-dns" },
-      { "ip_is_private": true, "outbound": "direct" },
-      { "domain_suffix": ["discord.com", "discord.gg", "discordapp.net"], "outbound": "proxy" },
-      { "network": "udp", "outbound": "proxy" }
+      {
+        "type": "field",
+        "ip": ["1.1.1.1", "8.8.8.8"],
+        "outboundTag": "proxy"
+      },
+      {
+        "type": "field",
+        "protocol": ["udp"],
+        "outboundTag": "direct"
+      }
     ]
   }
 }
+
