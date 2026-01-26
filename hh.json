@@ -1,0 +1,102 @@
+{
+  "log": {
+    "level": "info",
+    "output": "/home/deck/sing-box/sing-box.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-remote",
+        "address": "8.8.8.8",
+        "detour": "proxy"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "1.1.1.1",
+        "detour": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "protocol": "dns",
+        "server": "dns-direct"
+      },
+      {
+        "outbound": "proxy",
+        "server": "dns-remote"
+      }
+    ],
+    "final": "dns-direct"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "tun0",
+      "address": [
+        "172.19.0.1/30"
+      ],
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system",
+      "sniff": true,
+      "udp_timeout": "300s"
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "proxy",
+      "server": "se-balancer.vkproxy.com",
+      "server_port": 40443,
+      "uuid": "4805d4cb-95ff-4122-ac8c-5b29aa06df7a",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "eh.vk.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
+          "short_id": "505c94b8c65afb0a"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "rules": [
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "protocol": "udp",
+        "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          "discord.com",
+          "discord.gg",
+          "discordapp.net",
+          "ea.com",
+          "origin.com"
+        ],
+        "outbound": "direct"
+      }
+    ]
+  }
+}
