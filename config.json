@@ -1,0 +1,57 @@
+{
+  "log": { "level": "info", "timestamp": true },
+  "inbounds": [
+    {
+      "type": "vless",
+      "tag": "VPN-Germany",
+      "listen": "::",
+      "listen_port": 443,
+      "users": [{ "uuid": "fc72b8a8-afed-49ed-9e60-f7f3951f228c", "flow": "xtls-rprx-vision" }],
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "reality": {
+          "enabled": true,
+          "handshake": { "server": "deepl.com", "server_port": 443 },
+          "private_key": "iGf9r6w4sTjWk4sDiruwkUmsfn8Gqu8y7rC6mkUmNUY",
+          "short_id": ["92"]
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "VPN-Cloned",
+      "listen": "::",
+      "listen_port": 58598,
+      "users": [{ "uuid": "4685af68-770a-4a0f-8e75-99228f0e4da7", "flow": "xtls-rprx-vision" }],
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "reality": {
+          "enabled": true,
+          "handshake": { "server": "deepl.com", "server_port": 443 },
+          "private_key": "iGf9r6w4sTjWk4sDiruwkUmsfn8Gqu8y7rC6mkUmNUY",
+          "short_id": ["92"]
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "VPN-Kirill",
+      "listen": "::",
+      "listen_port": 18332,
+      "users": [{ "uuid": "b68cf42e-f3d1-4acf-b7ba-168c584e6138", "flow": "xtls-rprx-vision" }],
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "reality": {
+          "enabled": true,
+          "handshake": { "server": "deepl.com", "server_port": 443 },
+          "private_key": "iGf9r6w4sTjWk4sDiruwkUmsfn8Gqu8y7rC6mkUmNUY",
+          "short_id": ["92"]
+        }
+      }
+    }
+  ],
+  "outbounds": [{ "type": "direct", "tag": "direct" }]
+}
